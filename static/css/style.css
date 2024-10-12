@@ -1,0 +1,30 @@
+body {
+    background-color: lightblue; /* Change to your desired color */
+}
+
+nav {
+    background-color: #333; /* Navbar background color */
+}
+
+nav ul {
+    list-style-type: none; /* Remove bullet points */
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /* Clear floats */
+}
+
+nav ul li {
+    float: left; /* Align items horizontally */
+}
+
+nav ul li a {
+    display: block;
+    color: white; /* Text color */
+    text-align: center; /* Center text */
+    padding: 14px 16px; /* Padding around links */
+    text-decoration: none; /* Remove underline */
+}
+
+nav ul li a:hover {
+    background-color: #111; /* Background color on hover */
+}
